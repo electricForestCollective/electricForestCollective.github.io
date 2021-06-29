@@ -1,493 +1,372 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+  <title>Global</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="HTML5 website template">
+  <meta name="keywords" content="global, template, html, sass, jquery">
+  <meta name="author" content="Bucky Maler">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
 
-    <title>Electric Forest Collective</title>
-    <!--
-Template 2109 The Card
-http://www.tooplate.com/view/2109-the-card
--->
-    <!-- load CSS -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
-    />
-    <!-- Google web font "Open Sans" -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <!-- https://getbootstrap.com/ -->
-    <link rel="stylesheet" href="slick/slick.css" />
-    <link rel="stylesheet" href="slick/slick-theme.css" />
-    <link rel="stylesheet" href="css/magnific-popup.css" />
-    <link rel="stylesheet" href="css/tooplate-style.css" />
-    <!-- Templatemo style -->
-  </head>
+<!-- notification for small viewports and landscape oriented smartphones -->
+<div class="device-notification">
+  <a class="device-notification--logo" href="#0">
+    <img src="assets/img/logoTransparent.png" alt="Global">
+    <p>Global</p>
+  </a>
+  <p class="device-notification--message">Psst orient your device to portrait or find a larger screen. You won't be disappointed.</p>
+</div>
 
-  <body>
-    <!-- Loader -->
-    <div id="loader-wrapper">
-      <div id="loader"></div>
-      <div class="loader-section section-left"></div>
-      <div class="loader-section section-right"></div>
-    </div>
-
-    <div class="tm-main-container">
-      <div class="tm-top-container">
-        <!-- Menu -->
-        <nav id="tmNav" class="tm-nav">
-          <a class="tm-navbar-menu" href="#">Menu</a>
-          <ul class="tm-nav-links">
-<!--
-            <li class="tm-nav-item active">
-              <a href="#" data-linkid="0" data-align="right" class="tm-nav-link">Intro</a>
-            </li>
--->
-            <li class="tm-nav-item">
-              <a href="#" data-linkid="1" data-align="right" class="tm-nav-link">About</a>
-            </li>
-            <li class="tm-nav-item">
-              <a
-                href="#"
-                data-linkid="2"
-                data-align="middle"
-                class="tm-nav-link">Work</a>
-            </li>
-            <li class="tm-nav-item">
-              <a href="#" data-linkid="3" data-align="left" class="tm-nav-link">Contact</a>
-            </li>
-<!--
-            <li class="tm-nav-item">
-              <a
-                rel="nofollow" href="https://fb.com/tooplate"
-                class="tm-nav-link external">External</a>
-            </li>
--->
+<div class="perspective effect-rotate-left">
+  <div class="container"><div class="outer-nav--return"></div>
+    <div id="viewport" class="l-viewport">
+      <div class="l-wrapper">
+        <header class="header">
+          <a class="header--logo" href="#0">
+<!--            <img src="assets/img/logoGrey.png" alt="Logo" id="bgLogo">-->
+<!--            <p>Global</p>-->
+          </a>
+          <button class="header--cta cta">Contact us</button>
+          <div class="header--nav-toggle">
+            <span></span>
+          </div>
+        </header>
+        </header>
+        <nav class="l-side-nav">
+          <ul class="side-nav">
+            <li class="is-active"><span>Home</span></li>
+            <li><span>Works</span></li>
+            <li><span>Mud Commune</span></li>
+            <li><span>About</span></li>
+            <li><span>Where</span></li>
+            <li><span>Contact us</span></li>
           </ul>
         </nav>
-
-        <!-- Site header -->
-        <header class="tm-site-header-box tm-bg-dark">
-          <h1 class="tm-site-title">Electric Forest Collective</h1>
-<!--          <p class="mb-0 tm-site-subtitle">A studio practice weaving the ecological with the technological</p>-->
-        </header>
-      </div>
-      <!-- tm-top-container -->
-
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-12">
-            <!-- Site content -->
-            <div class="tm-content">
-              <!-- Section 0 Introduction -->
-<!--
-              <section class="tm-section tm-section-0">
-                <h2 class="tm-section-title mb-3 font-weight-bold">
-                  Introduction
-                </h2>
-                <div class="tm-textbox tm-bg-dark">
-                  <p>
-                    The Card template is last updated on 21 May 2019. Read More button is linked to second page. You can try it now. External link button is added on main menu.
-                  </p>
-                  <p class="mb-0">
-                    Please tell your friends about Tooplate for free templates. This is 70% alpha background.
-                  </p>
-                </div>
-                <a href="#" id="tm_about_link" data-linkid="1" class="tm-link">Read More</a>
-              </section>
--->
-
-              <!-- Section 1 About Me -->
-              <section class="tm-section tm-section-1">
-                <div class="tm-textbox tm-textbox-2 tm-bg-dark">
-                  <h2 class="tm-text-blue mb-4">About Me</h2>
-                  <p class="mb-4">
-                    You are allowed to modify and use this HTML template for
-                    your personal or business websites.
-                  </p>
-                  <p class="mb-4">
-                    You are NOT allowed to re-distribute this template file on
-                    your site for any reason. Thank you.
-                  </p>
-                  <a
-                    href="#"
-                    id="tm_work_link"
-                    data-linkid="2"
-                    class="tm-link m-0"
-                    >Next</a
-                  >
-                </div>
-              </section>
-
-              <!-- Section 2 Work (Gallery) -->
-              <section class="tm-section tm-section-2 mx-auto">
-                <div class="grid tm-gallery">
-                  <figure class="effect-goliath tm-gallery-item">
-                    <img src="img/01.jpg" alt="Image 1" class="" />
-                    <figcaption>
-                      <h2>
-                        Thoughtful
-                        <span>Goliath</span>
-                      </h2>
-                      <p>When Goliath comes out, you should run.</p>
-                      <a href="img/01.jpg">View more</a>
-                    </figcaption>
-                  </figure>
-                  <figure class="effect-goliath tm-gallery-item">
-                    <img src="img/02.jpg" alt="Pretty Girl" class="" />
-                    <figcaption>
-                      <h2>
-                        Pretty Girl
-                        <span>Picture</span>
-                      </h2>
-                      <p>Vivamus feugiat, neque sed.</p>
-                      <a href="img/02.jpg">View more</a>
-                    </figcaption>
-                  </figure>
-                  <figure class="effect-goliath tm-gallery-item">
-                    <img src="img/03.jpg" alt="Red Flowers" class="" />
-                    <figcaption>
-                      <h2>
-                        A bunch of
-                        <span>Red Flower</span>
-                      </h2>
-                      <p>Integer pellentesque nisi iaculis sapien.</p>
-                      <a href="img/03.jpg">View more</a>
-                    </figcaption>
-                  </figure>
-                  <figure class="effect-goliath tm-gallery-item">
-                    <img src="img/04.jpg" alt="Stairs" class="" />
-                    <figcaption>
-                      <h2>
-                        Thoughtful
-                        <span>Goliath</span>
-                      </h2>
-                      <p>When Goliath comes out, you should run.</p>
-                      <a href="img/04.jpg">View more</a>
-                    </figcaption>
-                  </figure>
-                  <figure class="effect-goliath tm-gallery-item">
-                    <img src="img/05.jpg" alt="Image 5" class="" />
-                    <figcaption>
-                      <h2>
-                        Thoughtful
-                        <span>Goliath</span>
-                      </h2>
-                      <p>When Goliath comes out, you should run.</p>
-                      <a href="img/05.jpg">View more</a>
-                    </figcaption>
-                  </figure>
-                  <figure class="effect-goliath tm-gallery-item">
-                    <img src="img/06.jpg" alt="Image 6" class="" />
-                    <figcaption>
-                      <h2>
-                        Thoughtful
-                        <span>Goliath</span>
-                      </h2>
-                      <p>When Goliath comes out, you should run.</p>
-                      <a href="img/06.jpg">View more</a>
-                    </figcaption>
-                  </figure>
-                  <figure class="effect-goliath tm-gallery-item">
-                    <img src="img/07.jpg" alt="Image 7" class="" />
-                    <figcaption>
-                      <h2>
-                        Thoughtful
-                        <span>Goliath</span>
-                      </h2>
-                      <p>When Goliath comes out, you should run.</p>
-                      <a href="img/07.jpg">View more</a>
-                    </figcaption>
-                  </figure>
-                  <figure class="effect-goliath tm-gallery-item">
-                    <img src="img/08.jpg" alt="Image 8" class="" />
-                    <figcaption>
-                      <h2>
-                        Thoughtful
-                        <span>Goliath</span>
-                      </h2>
-                      <p>When Goliath comes out, you should run.</p>
-                      <a href="img/08.jpg">View more</a>
-                    </figcaption>
-                  </figure>
-                  <figure class="effect-goliath tm-gallery-item">
-                    <img src="img/09.jpg" alt="Image 9" class="" />
-                    <figcaption>
-                      <h2>
-                        Thoughtful
-                        <span>Goliath</span>
-                      </h2>
-                      <p>When Goliath comes out, you should run.</p>
-                      <a href="img/09.jpg">View more</a>
-                    </figcaption>
-                  </figure>
-                  <figure class="effect-goliath tm-gallery-item">
-                    <img src="img/10.jpg" alt="Image 10" class="" />
-                    <figcaption>
-                      <h2>
-                        Thoughtful
-                        <span>Goliath</span>
-                      </h2>
-                      <p>When Goliath comes out, you should run.</p>
-                      <a href="img/10.jpg">View more</a>
-                    </figcaption>
-                  </figure>
-                  <figure class="effect-goliath tm-gallery-item">
-                    <img src="img/11.jpg" alt="Image 11" class="" />
-                    <figcaption>
-                      <h2>
-                        Thoughtful
-                        <span>Goliath</span>
-                      </h2>
-                      <p>When Goliath comes out, you should run.</p>
-                      <a href="img/11.jpg">View more</a>
-                    </figcaption>
-                  </figure>
-                  <figure class="effect-goliath tm-gallery-item">
-                    <img src="img/12.jpg" alt="Image 12" class="" />
-                    <figcaption>
-                      <h2>
-                        Thoughtful
-                        <span>Goliath</span>
-                      </h2>
-                      <p>When Goliath comes out, you should run.</p>
-                      <a href="img/12.jpg">View more</a>
-                    </figcaption>
-                  </figure>
-                </div>
-              </section>
-
-              <!-- Section 3 Contact -->
-              <section class="tm-section tm-section-3 tm-section-left">
-                <form action="" class="tm-contact-form" method="post">
-                  <div class="form-group mb-4">
-                    <input
-                      type="text"
-                      id="contact_name"
-                      name="contact_name"
-                      class="form-control"
-                      placeholder="Name"
-                      required
-                    />
-                  </div>
-                  <div class="form-group mb-4">
-                    <input
-                      type="email"
-                      id="contact_email"
-                      name="contact_email"
-                      class="form-control"
-                      placeholder="Email"
-                      required
-                    />
-                  </div>
-                  <div class="form-group mb-4">
-                    <textarea
-                      rows="4"
-                      id="contact_message"
-                      name="contact_message"
-                      class="form-control"
-                      placeholder="Message"
-                      required
-                    ></textarea>
-                  </div>
-                  <div class="form-group mb-0">
-                    <button type="submit" class="btn tm-send-btn tm-fl-right">
-                      Send
-                    </button>
-                  </div>
-                </form>
-              </section>
+        <ul class="l-main-content main-content">
+          <li class="l-section section section--is-active">
+            <div class="intro">
+              <div class="intro--banner">
+                <h1>The<br>Electric<br>Forest <br> Collective</h1>
+                <button class="cta">Contact Us
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                  <span class="btn-background"></span>
+                </button>
+                <img src="assets/img/logoSmall.png" alt="Welcome" id="logo">
+<!--                <img src="assets/img/logo.png" alt="Welcome" id="logo">-->
+              </div>
+              <div class="intro--options">
+                
+                 <a>
+                     <button class="mudcta" style="background:none; border: 0; padding: 0;">
+                          <h3>Mud Commune</h3>
+                          <p>Current work in progress, a look into the microbial undergrowth</p>
+                      </button>
+                </a>
+                 
+                <a href="#0">
+                     <button class="selectedWork" style="background:none; border: 0; padding: 0;" >
+                            <h3>Workings</h3>
+                            <p>Sneak into our wips</p>
+                     </button>
+                </a>
+                <a href="#0">
+                   <button class="aboutUs" style="background:none; border: 0; padding: 0;" >
+                            <h3>About us</h3>
+                            <p>Meet the team</p>
+                   </button>
+                </a>
+              </div>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="tm-bottom-container">
+          </li>
+          <li class="l-section section">
+            <div class="work">
+              <h2>Selected work</h2>
+              <div class="work--lockup">
+                <ul class="slider">
+                  <li class="slider--item slider--item-left">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/mudLaura.jpg" alt="Mud">
+                      </div>
+                      <p class="slider--item-title">Mud Commune</p>
+                      <p class="slider--item-description">Caring for our mud pies</p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-center">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/stringObject.jpg" alt="Adventure walks">
+                      </div>
+                      <p class="slider--item-title">Adventure walks</p>
+                      <p class="slider--item-description"></p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-right">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/MudPieReading3.jpeg" alt="Mud Pie reading">
+                      </div>
+                      <p class="slider--item-title">Another mud commune reading</p>
+                      <p class="slider--item-description"></p>
+                    </a>
+                  </li>
+                  <li class="slider--item">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/Sculpture3.jpeg" alt="Augmented sculpture hunt">
+                      </div>
+                      <p class="slider--item-title">Augmented sculpture hunt</p>
+                      <p class="slider--item-description"></p>
+                    </a>
+                  </li>
+                  <li class="slider--item">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/MudPieDeconstruction.jpeg" alt="Mud Pie components">
+                      </div>
+                      <p class="slider--item-title">Mud pie components</p>
+                      <p class="slider--item-description"></p>
+                    </a>
+                  </li>
+                  <li class="slider--item">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/StringJohanna.jpeg" alt="Ball of fishing net discarded">
+                      </div>
+                      <p class="slider--item-title">Castaway treasure</p>
+                      <p class="slider--item-description"></p>
+                    </a>
+                  </li>
+                </ul>
+                <div class="slider--prev">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
+                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
+                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
+                  </g>
+                  </svg>
+                </div>
+                <div class="slider--next">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="mud">
+              <div class="mud--banner">
+                <h1><br><br><br><br>Mud <br> Commune</h1>
 <!--
-         Barcode 
-        <div class="tm-barcode-box">
-          <img src="img/bar-code.jpg" alt="Bar code" />
-        </div>
+                <button class="cta">Contact Us
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                  <span class="btn-background"></span>
+                </button>
 -->
+                <img src="assets/img/mockup.png" alt="Welcome" id="logo" style="max-width: 900px">
+<!--                <img src="assets/img/logo.png" alt="Welcome" id="logo">-->
+              </div>
+              <div class="mud--options">
+<!--
+                <a href="#0">
+                  <h3>Mud Commune</h3>
+                  <p>Current work in progress, a look into the microbial undergrowth</p>
+                </a>
+                <a href="#0">
+                  <h3>Other Work</h3>
+                  <p>Check out our previous pieces</p>
+                </a>
+-->
+<!--
+                <a href="#0">
+                  <h3>About Us</h3>
+                  <p></p>
+                </a>
+-->
+                <p>
+                           
+                    The global ecological crisis forces us to re-think on matters of co-nurturing life and what we can learn in this process from those existing in the periphery: the microbial of the underground. Within the mud resides a network of microbes, many of which have the ability to generate electricity and break down pollutants - even radioactivity.<br><br>
+                    
+                    The installation consists of interconnected ‘mud communes’ that have been carefully nurtured to generate electricity and communicate via an online social platform. Each one is inhabited by these power-generating microbes, using the anaerobic bacteria’s ability to shift electrons from their food to an electrode outside their bodies. Sensors monitor their nutrients and survival rate, communicating these values to the social network via wifi boards. Two screens are displayed on a wooden structure that appear like digital billboards in a desolate landscape. One of the screens displays a live feed grid from multiple mud communes in different locations where one can follow the human/microbe care process.<br><br>
 
-        <!-- Footer -->
-        <footer>
-          || Copyright &copy; 2018 Company Name || 
-                  
-        	Design: <a rel="nofollow" href="https://fb.com/tooplate">Tooplate</a> || 
-        
-        </footer>
+                    The second screen shows a social network feed from the communes, sharing sensor readings and their algorithmically generated communications. Natural language processing is used to interpret the different types of data which becomes the infrastructure of the communication and a narrative slowly unfolds - the mud’s generated messages act as a window into the microbial underground. <br><br>
+
+                    Participants are invited to create their own mud commune according to instructions displayed in a booklet and once assembled they can enter it to the social network during the run of the exhibition. The mud network explores the digital potential of the mud's electron-generating capabilities and what it means for technology and microbes to intertwine in an intimate relationship. Through tending to the earth’s substrate we can try to shift the public narrative around what is considered to be “natural” - and speculate in a future where ethical values around nurture and care are rooted in an understanding of the complexity of our ecosystems.
+
+
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="about">
+              <div class="about--banner">
+                <h2>Meet<br>the<br>collective</h2>
+<!--
+                <a href="#0">Contact
+                  <span>
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                    <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                      <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                    </g>
+                    </svg>
+                  </span>
+                </a>
+-->
+                <img src="assets/img/crew.jpg" alt="About Us">
+              </div>
+              <div class="about--options">
+                <a href="https://johannadeverdier.com/index.html">
+                  <h3>Johanna</h3>
+                </a>
+                <a href="http://www.theretohere.co.uk/There_to_Here/Distributed_Cognition.html">
+                  <h3>Laura</h3>
+                </a>
+                <a href="https://meganbenson.me/portfolio/blossombranch/">
+                  <h3>Megan</h3>
+                </a>
+                <a href="http://www.panjapop.com/interaction/the-modern-conversation/">
+                  <h3>Panja</h3>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="contact">
+              <div class="contact--lockup">
+                <div class="modal">
+                  <div class="modal--information">
+                    <p>Various Locations, London</p>
+                    <a href="mailto:ouremail@gmail.com">email coming soon</a>
+<!--                    <a href="tel:+148126287560">+48 12 628 75 60</a>-->
+                  </div>
+                  <ul class="modal--options">
+<!--                    <li><a href="#0">Bēhance</a></li>-->
+                    <li><a href="https://www.instagram.com/electricforest.lab/">instagram</a></li>
+                    <li><a href="mailto:ouremail@thisdoesnotwork.com">Contact Us</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="hire">
+              <h2>Leave your details to </h2>
+              <!-- checkout formspree.io for easy form setup -->
+              <form class="work-request">
+                <div class="work-request--options">
+                  <span class="options-a">
+                    <input id="opt-1" type="checkbox" value="see what we're up to">
+                    <label for="opt-1">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      See what we're up to
+                    </label>
+                    <input id="opt-2" type="checkbox" value="collaborate">
+                    <label for="opt-2">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                     Collaborate
+                    </label>
+                    <input id="opt-3" type="checkbox" value="muse with us">
+                    <label for="opt-3">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Muse with us
+                    </label>
+                  </span>
+                  <span class="options-b">
+                    <input id="opt-4" type="checkbox" value="go on a walk">
+                    <label for="opt-4">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Go on a walk
+                    </label>
+                    <input id="opt-5" type="checkbox" value="ask for advice">
+                    <label for="opt-5">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Ask for advice
+                    </label>
+                    <input id="opt-6" type="checkbox" value="commission us">
+                    <label for="opt-6">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Commission us
+                    </label>
+                  </span>
+                </div>
+                <div class="work-request--information">
+                  <div class="information-name">
+                    <input id="name" type="text" spellcheck="false">
+                    <label for="name">Name</label>
+                  </div>
+                  <div class="information-email">
+                    <input id="email" type="email" spellcheck="false">
+                    <label for="email">Email</label>
+                  </div>
+                </div>
+                <input type="submit" value="Send Request">
+              </form>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
+  </div>
+  <ul class="outer-nav">
+    <li class="is-active">Home</li>
+    <li>Works</li>
+    <li><span>Mud Commune</span></li>
+    <li>About</li>
+    <li>Where</li>
+    <li>Contact us</li>
+  </ul>
+</div>
 
-    <script src="js/jquery-1.11.0.min.js"></script>
-    <script src="js/background.cycle.js"></script>
-    <script src="slick/slick.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script>
-      let slickInitDone = false;
-      let previousImageId = 0,
-        currentImageId = 0;
-      let pageAlign = "right";
-      let bgCycle;
-      let links;
-      let eachNavLink;
-
-      window.onload = function() {
-        $("body").addClass("loaded");
-      };
-
-      function navLinkClick(e) {
-        if ($(e.target).hasClass("external")) {
-          return;
-        }
-
-        e.preventDefault();
-
-        if ($(e.target).data("align")) {
-          pageAlign = $(e.target).data("align");
-        }
-
-        // Change bg image
-        previousImageId = currentImageId;
-        currentImageId = $(e.target).data("linkid");
-        bgCycle.cycleToNextImage(previousImageId, currentImageId);
-
-        // Change menu item highlight
-        $(`.tm-nav-item:eq(${previousImageId})`).removeClass("active");
-        $(`.tm-nav-item:eq(${currentImageId})`).addClass("active");
-
-        // Change page content
-        $(`.tm-section-${previousImageId}`).fadeOut(function(e) {
-          $(`.tm-section-${currentImageId}`).fadeIn();
-          // Gallery
-          if (currentImageId === 2) {
-            setupSlider();
-          }
-        });
-
-        adjustFooter();
-      }
-
-      $(document).ready(function() {
-        // Set first page
-        $(".tm-section").fadeOut(0);
-        $(".tm-section-0").fadeIn();
-
-        // Set Background images
-        // https://www.jqueryscript.net/slideshow/Simple-jQuery-Background-Image-Slideshow-with-Fade-Transitions-Background-Cycle.html
-        bgCycle = $("body").backgroundCycle({
-          imageUrls: [
-            "img/crew.jpg",
-            "img/stringObject.jpg",
-            "img/mudLaura.jpg"
-          ],
-          fadeSpeed: 2000,
-          duration: -1,
-          backgroundSize: SCALING_MODE_COVER
-        });
-
-        eachNavLink = $(".tm-nav-link");
-        links = $(".tm-nav-links");
-
-        // "Menu" open/close
-        if (links.hasClass("open")) {
-          links.fadeIn(0);
-        } else {
-          links.fadeOut(0);
-        }
-
-        $("#tm_about_link").on("click", navLinkClick);
-        $("#tm_work_link").on("click", navLinkClick);
-
-        // Each menu item click
-        eachNavLink.on("click", navLinkClick);
-
-        $(".tm-navbar-menu").click(function(e) {
-          if (links.hasClass("open")) {
-            links.fadeOut();
-          } else {
-            links.fadeIn();
-          }
-
-          links.toggleClass("open");
-        });
-
-        // window resize
-        $(window).resize(function() {
-          // If current page is Gallery page, set it up
-          if (currentImageId === 2) {
-            setupSlider();
-          }
-
-          // Adjust footer
-          adjustFooter();
-        });
-
-        adjustFooter();
-      }); // DOM is ready
-
-      function adjustFooter() {
-        const windowHeight = $(window).height();
-        const topHeight = $(".tm-top-container").height();
-        const middleHeight = $(".tm-content").height();
-        let contentHeight = topHeight + middleHeight;
-
-        if (pageAlign === "left") {
-          contentHeight += $(".tm-bottom-container").height();
-        }
-
-        if (contentHeight > windowHeight) {
-          $(".tm-bottom-container").addClass("tm-static");
-        } else {
-          $(".tm-bottom-container").removeClass("tm-static");
-        }
-      }
-
-      function setupSlider() {
-        let slidesToShow = 4;
-        let slidesToScroll = 2;
-        let windowWidth = $(window).width();
-
-        if (windowWidth < 480) {
-          slidesToShow = 1;
-          slidesToScroll = 1;
-        } else if (windowWidth < 768) {
-          slidesToShow = 2;
-          slidesToScroll = 1;
-        } else if (windowWidth < 992) {
-          slidesToShow = 3;
-          slidesToScroll = 2;
-        }
-
-        if (slickInitDone) {
-          $(".tm-gallery").slick("unslick");
-        }
-
-        slickInitDone = true;
-
-        $(".tm-gallery").slick({
-          dots: true,
-          customPaging: function(slider, i) {
-            var thumb = $(slider.$slides[i]).data();
-            return `<a>${i + 1}</a>`;
-          },
-          infinite: true,
-          prevArrow: false,
-          nextArrow: false,
-          slidesToShow: slidesToShow,
-          slidesToScroll: slidesToScroll
-        });
-
-        // Open big image when a gallery image is clicked.
-        $(".slick-list").magnificPopup({
-          delegate: "a",
-          type: "image",
-          gallery: {
-            enabled: true
-          }
-        });
-      }
-    </script>
-  </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+<script src="assets/js/functions-min.js"></script>
+</body>
 </html>
